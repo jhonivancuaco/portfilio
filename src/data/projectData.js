@@ -13,7 +13,6 @@ const useProjecData = create((set) => ({
                 'Custom Theme',
                 'Bootstrap',
                 'Sass',
-                'WPForms',
             ],
         },
         {
@@ -23,11 +22,10 @@ const useProjecData = create((set) => ({
             image: '/img/filedocsphil.png',
             skills: [
                 'WordPress',
-                'GenerateBlocks',
-                'Custom Theme',
+                'Elementor',
+                'Custom Plugin',
                 'Bootstrap',
                 'Sass',
-                'WPForms',
             ],
         },
         {
@@ -39,6 +37,7 @@ const useProjecData = create((set) => ({
                 'WordPress',
                 'Elementor',
                 'Custom Theme',
+                'Custom Plugin',
                 'Bootstrap',
                 'Sass',
             ],
@@ -50,8 +49,8 @@ const useProjecData = create((set) => ({
             image: '/img/filepino.png',
             skills: [
                 'WordPress',
-                'Custom Plugin',
                 'Elementor',
+                'Custom Plugin',
                 'Bootstrap',
             ],
         },
@@ -62,6 +61,7 @@ const useProjecData = create((set) => ({
             image: '/img/fencing-quotes-online.png',
             skills: [
                 'WordPress',
+                'GenerateBlocks',
                 'Custom Theme',
                 'Bootstrap',
                 'Sass',
@@ -74,8 +74,10 @@ const useProjecData = create((set) => ({
             image: '/img/londonhousecleaners.png',
             skills: [
                 'WordPress',
-                'Elementor',
+                'GenerateBlocks',
+                'Custom Theme',
                 'Bootstrap',
+                'Sass',
             ],
         },
         {
@@ -85,8 +87,11 @@ const useProjecData = create((set) => ({
             image: '/img/eunika-agency.png',
             skills: [
                 'WordPress',
-                'SEO',
-                'Content Creation',
+                'GeneratePress',
+                'GenerateBlocks',
+                'Custom Theme',
+                'Bootstrap',
+                'Sass',
             ],
         },
         {
@@ -96,8 +101,10 @@ const useProjecData = create((set) => ({
             image: '/img/retainingwallsupplies.png',
             skills: [
                 'WordPress',
+                'Elementor',
+                'WooCommerce',
+                'Custom Theme',
                 'Bootstrap',
-                'Sass',
             ],
         },
         {
@@ -107,8 +114,11 @@ const useProjecData = create((set) => ({
             image: '/img/gymnearme.png',
             skills: [
                 'WordPress',
-                'Directory Plugin',
-                'Custom Theme',
+                'Roots Sage Theme',
+                'Codeigniter3',
+                'Boostrap',
+                'Sass',
+                'JQuery',
             ],
         },
         {
@@ -118,8 +128,11 @@ const useProjecData = create((set) => ({
             image: '/img/whatmanandvan.png',
             skills: [
                 'WordPress',
-                'Comparison Plugin',
-                'Custom Theme',
+                'Roots Sage Theme',
+                'Codeigniter3',
+                'Boostrap',
+                'Sass',
+                'JQuery',
             ],
         },
         {
@@ -129,8 +142,13 @@ const useProjecData = create((set) => ({
             image: '/img/whatremovals.png',
             skills: [
                 'WordPress',
-                'Custom Theme',
-                'Bootstrap',
+                'Roots Sage Theme',
+                'Codeigniter3',
+                'WooCommerce',
+                'Twilio SMS',
+                'Boostrap',
+                'Sass',
+                'JQuery',
             ],
         },
         {
@@ -140,8 +158,12 @@ const useProjecData = create((set) => ({
             image: '/img/whatstorage.png',
             skills: [
                 'WordPress',
-                'Comparison Plugin',
-                'Custom Theme',
+                'Roots Sage Theme',
+                'Codeigniter3',
+                'Google Spreadsheet API',
+                'Boostrap',
+                'Sass',
+                'JQuery',
             ],
         }
     ],

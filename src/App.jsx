@@ -1,3 +1,6 @@
+import { AiOutlineSkype } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import Lottie from "lottie-react"
 import animationAbout from './animation/about.json';
 import animationContact from './animation/contact.json';
@@ -192,7 +195,7 @@ function App() {
             Contact
           </h2>
 
-          <div className="grid md:grid-cols-12">
+          <div className="grid lg:grid-cols-12">
             <div className="col-span-6 text-black p-4">
               <div className="bg-white rounded p-4">
                 <h3 className="text-center text-2xl font-bold mb-10">Get in <span className="text-orange-500">touch</span></h3>
@@ -241,62 +244,75 @@ function App() {
 
             <div className="col-span-6 p-4">
 
-              <div className="grid md:grid-cols-12">
+              <div className="grid lg:grid-cols-12">
                 <div className="col-span-6 p-4">
                   <p className="my-10">Connect with me on:</p>
-                  <p className="flex items-center mb-4">
-                    <Lottie
-                      animationData={animationChat}
-                      loop={true}
-                      autoplay={true}
-                      style={{ width: 30, height: 30 }}
-                      className="mr-2"
-                    />
 
-                    <a href="mailto:ivancuaco.dev@gmail.com">ivancuaco.dev@gmail.com</a>
-                  </p>
+                  <ul>
+                    <li>
+                      <a href="mailto:ivancuaco.dev@gmail.com" className="flex items-center mb-4">
+                        <Lottie
+                          animationData={animationChat}
+                          loop={true}
+                          autoplay={true}
+                          style={{ width: 30, height: 30 }}
+                          className="mr-2"
+                        />
 
-                  <p className="flex items-center">
-                    <Lottie
-                      animationData={animationCall}
-                      loop={true}
-                      autoplay={true}
-                      style={{ width: 30, height: 30 }}
-                      className="mr-2"
-                    />
-                    <a href="tel:+639678061231">(+63) 967 806 1231</a>
-                  </p>
+                        <span>ivancuaco.dev@gmail.com</span>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="tel:+639678061231" className="flex items-center">
+                        <Lottie
+                          animationData={animationCall}
+                          loop={true}
+                          autoplay={true}
+                          style={{ width: 30, height: 30 }}
+                          className="mr-2"
+                        />
+                        <span>(+63) 967 806 1231</span>
+                      </a>
+                    </li>
+                  </ul>
 
                 </div>
 
-                <div className="col-span-6">
-                  <Lottie
-                    animationData={animationContact}
-                    loop={true}
-                    autoplay={true}
-                    style={{ width: '100%' }}
-                  />
+                <div className="col-span-6 p-4">
+
+                  <p className="my-10">Or you can connect with me via:</p>
+
+                  <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/jhon-ivan-cuaco-171022261/">
+                        <span className="flex items-center mb-4"><AiOutlineLinkedin size={30} color="#f97316" className="mr-2" /> LinkedIn</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://join.skype.com/invite/uiM4BB7DdvU3">
+                        <span className="flex items-center mb-4"><AiOutlineSkype size={30} color="#f97316" className="mr-2" /> Skype</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://api.whatsapp.com/send?phone=639678061231/">
+                        <span className="flex items-center mb-4"><AiOutlineWhatsApp size={30} color="#f97316" className="mr-2" /> WhatsApp</span>
+                      </a>
+                    </li>
+                  </ul>
+
                 </div>
               </div>
 
               <hr />
 
-              <p className="my-10">Or you can connect with me on:</p>
+              <Lottie
+                animationData={animationContact}
+                loop={true}
+                autoplay={true}
+                style={{ width: '100%' }}
+              />
 
-              <ul>
-                <li>
-                  LinkedIn
-                </li>
-                <li>
-                  WhatsApp
-                </li>
-                <li>
-                  Skype
-                </li>
-                <li>
-                  Viber
-                </li>
-              </ul>
 
             </div>
 
