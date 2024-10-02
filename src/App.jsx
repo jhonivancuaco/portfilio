@@ -39,15 +39,19 @@ function App() {
         <p className="text-center md:text-left text-lg md:text-2xl mb-8">
           Welcome to my Portfolio
         </p>
+
         <h1 className="text-center md:text-left text-2xl md:text-6xl font-bold mb-10">
           Hello, I am <span className="text-orange-500">Jhon Ivan Cuaco</span>
         </h1>
+
         <h2 className="text-center md:text-left text-lg md:text-3xl mb-10">
-          <span className="text-orange-500">YOUR GO-TO EXPERT FOR:</span> Full Stack Web Development, WordPress Solutions, and More.
+          Looking for a skilled full stack web developer to bring your digital projects to life? I specialize in modern website development, from creating custom WordPress themes and plugins to building dynamic, responsive sites using HTML5, CSS3, JavaScript, PHP, and more. Whether you're a business owner, startup, or entrepreneur, let's collaborate to turn your vision into reality.
         </h2>
+
         <p className="text-center md:text-left md:text-2xl mb-20">
-          Collaborate with an experienced Full Stack Web Developer who specializes in building dynamic, user-friendly websites and applications. I focus on delivering tailored solutions that meet your unique needs.
+          Reach out today for professional web development services, custom solutions, or if you have any questions about my work. I'm always eager to connect with new clients and explore exciting web development challenges!
         </p>
+
         <div className="mx-auto md:mx-0">
           <a href="#contact" className="bg-orange-500 hover:bg-orange-700 text-white font-bold rounded-full py-6 px-20">
             Contact Me
@@ -57,8 +61,6 @@ function App() {
 
 
       <div className="container mx-auto p-4">
-
-
         <section className="min-h-screen py-10">
           <h2 className="text-lg md:text-3xl text-center font-bold mb-4">
             About
@@ -82,28 +84,32 @@ function App() {
             </div>
           </div>
         </section>
+      </div>
 
-        <section className="min-h-screen py-10">
+      <section id="steps" className="min-h-screen pb-10 pt-20">
+        <div className="container mx-auto px-4">
           <h2 className="text-lg md:text-3xl text-center font-bold mb-10">
             Maximize Your Business Impact in Just <br /> <span className="text-orange-500">5 Steps with Expert Guidance</span>
           </h2>
 
           <p className="text-sm md:text-2xl font-bold">STEP 1 | <span className="text-orange-500">Schedule a Free Consultation</span></p>
-          <p className="text-xs md:text-base mb-4">Kickstart your web development journey by scheduling a free consultation with us. Whether you're looking to enhance your existing website or create something new, this initial call is designed to discuss your goals and explore how we can help you succeed online.</p>
+          <p className="md:text-lg mb-4">Kickstart your web development journey by scheduling a free consultation with us. Whether you're looking to enhance your existing website or create something new, this initial call is designed to discuss your goals and explore how we can help you succeed online.</p>
 
           <p className="text-sm md:text-2xl font-bold">STEP 2 | <span className="text-orange-500">Onboard with Your Project Manager</span></p>
-          <p className="text-xs md:text-base mb-4">After your consultation, our expert project manager will become your dedicated point of contact. During the onboarding session, we'll dive into your project objectives, specific requirements, and timelines. This ensures we have a clear understanding of your vision, allowing us to create a tailored development plan.</p>
+          <p className="md:text-lg mb-4">After your consultation, our expert project manager will become your dedicated point of contact. During the onboarding session, we'll dive into your project objectives, specific requirements, and timelines. This ensures we have a clear understanding of your vision, allowing us to create a tailored development plan.</p>
 
           <p className="text-sm md:text-2xl font-bold">STEP 3 | <span className="text-orange-500">Designing and Developing Your Website</span></p>
-          <p className="text-xs md:text-base mb-4">With your goals in mind, our skilled development team will begin crafting your website. From creating stunning designs to implementing robust functionality, we leverage the latest technologies to bring your vision to life. You can trust that your project is in the hands of experienced professionals.</p>
+          <p className="md:text-lg mb-4">With your goals in mind, our skilled development team will begin crafting your website. From creating stunning designs to implementing robust functionality, we leverage the latest technologies to bring your vision to life. You can trust that your project is in the hands of experienced professionals.</p>
 
           <p className="text-sm md:text-2xl font-bold">STEP 4 | <span className="text-orange-500">Quality Assurance</span></p>
-          <p className="text-xs md:text-base mb-4">Before launching your website, our quality assurance team conducts thorough testing to ensure everything works flawlessly. We meticulously review every element, from design responsiveness to functionality, ensuring that your website meets our high standards of quality and performance.</p>
+          <p className="md:text-lg mb-4">Before launching your website, our quality assurance team conducts thorough testing to ensure everything works flawlessly. We meticulously review every element, from design responsiveness to functionality, ensuring that your website meets our high standards of quality and performance.</p>
 
           <p className="text-sm md:text-2xl font-bold">STEP 5 | <span className="text-orange-500">Launch and Revisions</span></p>
-          <p className="text-xs md:text-base mb-4">Once the quality assurance process is complete, your project manager will guide you through the final deliverables and prepare for launch. If you need any adjustments or revisions, we're committed to making those changes until your website perfectly aligns with your vision and objectives.</p>
-        </section >
+          <p className="md:text-lg mb-4">Once the quality assurance process is complete, your project manager will guide you through the final deliverables and prepare for launch. If you need any adjustments or revisions, we're committed to making those changes until your website perfectly aligns with your vision and objectives.</p>
+        </div>
+      </section >
 
+      <div className="container mx-auto p-4">
         <section className="min-h-screen py-10">
           <h2 className="text-lg md:text-3xl text-center font-bold mb-4">
             My <span className="text-orange-500">Skills</span> and <span className="text-orange-500">Expertise</span>

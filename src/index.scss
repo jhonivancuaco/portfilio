@@ -10,6 +10,13 @@
 }
 
 
+#steps {
+    background: linear-gradient(to top, rgba(15, 23, 42, 1) 0%, rgba(15, 23, 42, 0.8) 50%, rgba(15, 23, 42, 1) 100%),
+        url("/img/steps.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
 .project {
     .build-by {
         display: none;
