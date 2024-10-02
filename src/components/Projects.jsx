@@ -17,7 +17,7 @@ function Projects() {
                         return (
                             <div key={index} className="project relative bg-orange-500 hover:bg-orange-600 flex flex-col items-center justify-center rounded p-2 min-h-[150px]">
                                 <a href={project.url} rel="nofollow noopener" target="_blank">
-                                    <img className="mb-4 w-[200px] md:w-[200px] h-[100px] object-contain" src={project.image} alt={project.name} />
+                                    <img className="mb-4 w-[200px] md:w-[200px] h-[100px] object-contain" src={project.image} alt={project.name} title={`${project.name} Projects`} />
                                 </a>
 
                                 <p className="text-center text-sm">{project.description}</p>
