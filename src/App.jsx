@@ -1,11 +1,10 @@
-import { BiArrowFromBottom } from "react-icons/bi";
 import Lottie from "lottie-react"
 import animationAbout from './animation/about.json';
 import animationContact from './animation/contact.json';
 import animationScrollTop from './animation/scroll-top.json';
 import animationCall from './animation/call.json';
 import animationChat from './animation/chat.json';
-import Projects from "./components/projects";
+import Projects from "./components/Projects";
 import { useEffect, useState } from "react";
 
 function App() {
