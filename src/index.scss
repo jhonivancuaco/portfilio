@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#banner {
+    background: linear-gradient(to top, rgba(15, 23, 42, 1) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url("/img/coding.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+
+.project {
+    .build-by {
+        display: none;
+        transition: all 1s ease-in-out;
+        cursor: auto;
+
+        .skill:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &:hover .build-by {
+        display: flex;
+    }
+}
