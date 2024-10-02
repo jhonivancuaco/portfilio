@@ -3,7 +3,7 @@ import { create } from "zustand";
 const useProjecData = create((set) => ({
     projects: [
         {
-            name: 'Red Brick Winery',
+            name: 'Red Brick Winery Project',
             description: 'A Napa Valley winery offering tastings, events, and a wine club, known for crafting unique wines with a focus on storytelling',
             url: 'https://redbrickwinery.com/',
             image: '/img/red-brick-winery.png',
@@ -16,7 +16,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'FileDocsPhil',
+            name: 'FileDocsPhil Project',
             description: 'Philippines-based service handling apostille, CAV, and embassy legalization for easy local and global document authentication',
             url: 'https://filedocsphil.com/',
             image: '/img/filedocsphil.png',
@@ -29,7 +29,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'DuranSchulze',
+            name: 'DuranSchulze Project',
             description: 'Provides legal and compliance support to small businesses in the Philippines, helping ensure smooth operations.',
             url: 'https://duranschulze.com/',
             image: '/img/duranschulze.png',
@@ -43,7 +43,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'FilePino',
+            name: 'FilePino Project',
             description: 'Business registration and compliance services for startups in the Philippines, simplifying processes for entrepreneurs.',
             url: 'https://www.filepino.com/',
             image: '/img/filepino.png',
@@ -55,7 +55,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'Fencing Quotes Online',
+            name: 'Fencing Quotes Online Project',
             description: 'Australian platform connecting users to fencing contractors, offering quick quotes for fence installation and repairs.',
             url: 'https://fencingquotesonline.com.au/',
             image: '/img/fencing-quotes-online.png',
@@ -68,7 +68,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'London House Cleaner',
+            name: 'London House Cleaner Project',
             description: 'Offers residential and commercial cleaning services in London, including deep cleaning, end-of-tenancy, and more.',
             url: 'http://londonhousecleaners.co.uk/',
             image: '/img/londonhousecleaners.png',
@@ -81,7 +81,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'Eunika Agency',
+            name: 'Eunika Agency Project',
             description: 'A digital marketing firm specializing in SEO and content creation to boost online presence and visibility for businesses.',
             url: 'http://eunika.agency/',
             image: '/img/eunika-agency.png',
@@ -95,7 +95,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'Retaining Wall Supplies',
+            name: 'Retaining Wall Supplies Project',
             description: 'Supplies materials for building retaining walls, offering solutions for residential and commercial landscaping projects.',
             url: 'https://retainingwallsupplies.com.au/',
             image: '/img/retainingwallsupplies.png',
@@ -108,7 +108,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'Gym Near Me',
+            name: 'Gym Near Me Project',
             description: 'A directory connecting users to nearby gyms and fitness centers based on location, equipment, and fitness needs.',
             url: 'https://gymnearme.net.au/',
             image: '/img/gymnearme.png',
@@ -122,7 +122,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'WhatManandVan',
+            name: 'WhatManandVan Project',
             description: 'UK comparison site for man and van services, helping customers find affordable options for moving and deliveries.',
             url: 'http://whatmanandvan.co.uk/',
             image: '/img/whatmanandvan.png',
@@ -136,7 +136,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'WhatRemovals',
+            name: 'WhatRemovals Project',
             description: 'A UK removals comparison platform for house and office moves, offering price comparisons and provider reviews.',
             url: 'http://whatremovals.co.uk/',
             image: '/img/whatremovals.png',
@@ -152,7 +152,7 @@ const useProjecData = create((set) => ({
             ],
         },
         {
-            name: 'WhatStorage',
+            name: 'WhatStorage Project',
             description: 'UK-based comparison service for self-storage units, helping customers find secure options based on size and price.',
             url: 'http://whatstorage.co.uk/',
             image: '/img/whatstorage.png',

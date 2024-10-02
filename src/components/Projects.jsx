@@ -17,14 +17,14 @@ function Projects() {
                         return (
                             <div key={index} className="project relative bg-orange-500 hover:bg-orange-600 flex flex-col items-center justify-center rounded p-2 min-h-[150px]">
                                 <a href={project.url} rel="nofollow noopener" target="_blank">
-                                    <img className="mb-4 w-[200px] md:w-[200px] h-[100px] object-contain" src={project.image} alt={project.name} title={`${project.name} Project`} />
+                                    <img className="mb-4 w-[200px] md:w-[200px] h-[100px] object-contain" src={project.image} alt={project.name} title={`${project.name}`} />
                                 </a>
 
                                 <p className="text-center text-sm">{project.description}</p>
 
                                 <div className="bg-slate-800 absolute build-by flex flex-col items-center justify-center w-full h-full">
                                     <a href={project.url} rel="nofollow noopener" target="_blank">
-                                        <h4 className="text-orange-500 hover:text-orange-600 text-xl text-center underline font-bold mb-4">{project.name}</h4>
+                                        <h3 className="text-orange-500 hover:text-orange-600 text-xl text-center underline font-bold mb-4">{project.name}</h3>
                                     </a>
 
                                     <div className="text-center flex flex-wrap items-center justify-center">
